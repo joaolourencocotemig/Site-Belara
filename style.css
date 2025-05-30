@@ -1,0 +1,874 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header{
+    height: 100px;
+    font-size: 22px;
+    padding-left: 10%;
+    padding-top: 2%;
+    color: whitesmoke;
+}
+
+.section1-area{
+    background-image: url(inicial.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: multiply;
+    height: 96vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#logoinicio{
+    position: absolute;
+    top:5%
+}
+
+#numeroheader{
+    text-align: right;
+    position: absolute;
+    top: 6.4%;
+    margin-left: 55%;
+    font-size: 18px;
+}
+
+#botaoheader{
+    position: absolute;
+    top: 5%;
+    margin-left: 66.5%;
+}
+
+#getfreequote{
+    color: whitesmoke;
+    background-color: #D6A04C;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #D6A04C;
+    border-radius: 2%;
+}
+
+#getfreequote:hover{
+    color:#D6A04C;
+    background-color: whitesmoke;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 2%;
+    transition: 0.35s;
+}
+
+#menubotao1{
+   display: inline-block;
+   height: 10px;
+   width: 2%;
+   border-bottom: solid 1px #fff;
+   border-top: solid 1px #fff;
+   margin-left: 79%;
+   position: absolute;
+   margin-top: 1.4%;
+}
+
+#menubotao2{
+    background-color: transparent;
+    border-top: 2px whitesmoke;
+    border-bottom: 2px whitesmoke;
+    border-left: 0px;
+    border-right: 0px;
+    height: 20px;
+    width: 45px;
+    color: whitesmoke;
+}
+
+#saltlake{
+    position: absolute;
+    top: 42%;
+    color: whitesmoke;
+    margin-left: 16%;
+}
+
+#homeowner{
+    position: absolute;
+    color: whitesmoke;
+    top: 47%;
+    margin-left: 16%; 
+    font-size: 58px;
+    width: 440px;
+}
+
+
+#divplay{
+    position: absolute;
+    top: 55%;
+    margin-left: 70%;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#botaoplay svg{
+    height: 40px;
+    fill: #D6A04C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.4s;
+}
+
+#botaoplay{
+    vertical-align: middle;
+    display: inline-block;
+    height: 70px;
+    width: 70px;   
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.4s;
+    margin-left: 30px;
+}
+
+#botaoplay::after{ content: "";
+    position: absolute;
+    height: 72px;
+    width: 72px;   
+    border: solid 2px #D6A04C;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#botaoplay::before{ content: "";
+    background-color: whitesmoke;
+    position: absolute;
+    height: 115px;
+    width: 115px;   
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 10%;
+}
+
+#botaoplay:hover svg{
+    fill: whitesmoke;
+}
+
+#botaoplay:hover{
+    background-color: #D6A04C;
+}
+
+#playicon{
+    height: 30px;
+    fill: #D6A04C;
+}
+
+#laranja-deitado-section1{
+    background-color: #D6A04C;
+    top: 85%;
+    margin-left: 50.7%;
+    width: 780px;
+    height: 120px;
+    position: absolute;
+}
+
+#home-retangulo-laranja{
+    color: whitesmoke;
+    font-size: 20px;    
+    width: 40%;
+    padding: 4%;
+    display: inline-block;
+}
+
+#world-retangulo-laranja{
+    width: 40%;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 20px; 
+    padding: 4%;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.section2-area{
+    background-color: #0a0316;
+    height: 215vh;
+    background-repeat: no-repeat;
+}
+
+#aboutus{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: 6%;
+    margin-left: 9%; 
+    font-size: 48px;
+    width: 240px;
+}
+
+#primeirotexto-section2{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: 14%;
+    margin-left: 16%; 
+    font-size: 27px;
+    width: 440px;
+    line-height: 40px;
+}
+
+#segundotexto-section2{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: 13.5%;
+    margin-left: 51%; 
+    font-size: 17.5px;
+    width: 400px;
+    line-height: 28px;
+}
+
+#imagemmano{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 16%;
+}
+
+#botaolearnmore{
+    background-color: transparent;
+    border: 1px solid #D6A04C;
+    margin-top: 26.8%;
+    margin-left: 51%;
+    height: 54px;
+    width: 142px;
+    color: whitesmoke;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+#botaolearnmore:hover{
+    background-color: #D6A04C;
+    border: 1px solid #D6A04C;
+    margin-top: 26.8%;
+    margin-left: 51%;
+    height: 54px;
+    width: 142px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+#imagemespaco{
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 51%;
+}
+
+#whatwedo{
+    position: absolute;
+    color: whitesmoke;
+    margin-top: 31%;
+    margin-left: 9%; 
+    font-size: 42px;
+    width: 320px;
+}
+
+#divcommercial{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 38%;
+    height: 500px;
+    width: 420px;
+    transition: 0.4s;
+}
+
+#divcommercial:hover{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 40%;
+}
+
+#divcommercial:hover img {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+#divcommercial:hover #commercial {
+    color: #D6A04C;
+}
+
+#imagem1trio{
+    position: absolute;
+}
+
+#commercial{
+    position: absolute;
+    top: 80%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#architecturedesign1{
+    position: absolute;
+    top: 90%;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+#divresidential{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 38%;
+    height: 500px;
+    width: 420px;
+    transition: 0.4s;
+}
+
+#divresidential:hover{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 40%;
+}
+
+#divresidential:hover img {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+#divresidential:hover #residential {
+    color: #D6A04C;
+}
+
+#imagem2trio{
+    position: absolute;
+}
+
+#residential{
+    position: absolute;
+    top: 80%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#architecturedesign2{
+    position: absolute;
+    top: 90%;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+#divarchitecture{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 38%;
+    height: 500px;
+    width: 420px;
+    transition: 0.4s;
+}
+
+#divarchitecture:hover{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 40%;
+}
+
+#divarchitecture:hover img {
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+#divarchitecture:hover #architecture {
+    color: #D6A04C;
+}
+
+#imagem3trio{
+    position: absolute;
+}
+
+#architecture{
+    position: absolute;
+    top: 80%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#architecturedesign3{
+    position: absolute;
+    top: 90%;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+
+.section3-area{
+    position: relative;
+    background-color: #1E1E1E;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+#projects{
+    padding-top: 7%;
+    margin-left: 15%;
+    font-size: 215px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px #E9E3D9;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+}
+
+#imgprojects{
+    position: absolute;
+    margin-left: 14%;
+    margin-top: -4.5%;
+}
+
+#div-casa:hover #casatexto{
+    color: #D6A04C;
+}
+
+#div-casa:hover{
+    background-color: #252424;
+}
+
+#div-casa{
+    background-color: #D6A04C;
+    margin-left: 14%;
+    height: 200px;
+    width: 720px;
+    position: absolute;
+    z-index: 5;
+    top: 85%;
+    transition: 0.4s;
+}
+
+#casatexto{
+    color: white;
+    padding-top: 4.5%;
+    padding-left: 9.5%;
+    font-size: 30px;
+    width: 500px;
+    transition: 0.4s;
+}
+
+#texto2-div{
+    color: white;
+    padding-top: 4.5%;
+    padding-left: 9.5%;
+    font-size: 15px;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+#botao-div{
+    display: inline-block;
+    position: absolute;
+    right: 7%;
+    top: 35%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: 0.4s;
+    border: solid 0px;
+    background-color: #e7af59;
+}
+
+#div-casa:hover #botao-div{
+    background-color: #D6A04C;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.section4-area{
+    background-color: #0a0316;
+    height: 90vh;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 3;
+}
+
+#duassection4{
+    position: absolute;
+    margin-top: 10%;
+    left: 14%;
+    width: 1000px;
+    height: 500px;
+}
+
+#muieloira{
+    height: 100%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+#section4-texto{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 84%;
+}
+
+#whyus{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    position: relative;
+}
+
+#textosection4{
+    display: inline-block;
+    color: white;
+    position: relative;
+    text-align: justify;
+    height: 50%;
+    width: 450px;
+    font-size: 28px;
+    line-height: 40px;
+    padding-top: 10%;
+}
+
+#botaolearnmore2{
+    display: inline-block;
+    margin-top: 10%;
+    background-color: transparent;
+    border: 1px solid #D6A04C;
+    height: 54px;
+    width: 142px;
+    color: #D6A04C;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#botaolearnmore2:hover{
+    background-color: white;
+    border: 1px solid #D6A04C;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.section5-area{
+    background: #0A0A0A;
+    position: relative;
+    height: 60vh;
+}
+
+#div-section5{
+    position: absolute;
+    left: 31%;
+    width: 700px;
+    padding-top: 7%;
+    height: 80%;
+    display: block;
+    text-align: center;
+}
+
+#texto-section5{
+    color: white;
+    position: relative;
+    padding-top: 2%;
+    font-size: 25px;
+    line-height: 40px;
+    }
+
+#buck{
+    padding-top: 4.2%
+}
+
+#buckkinnear{
+    padding-top: 3%;
+    color: white;
+    font-size: 12px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.section6-area{
+    background-color: #0a0316;
+    height: 80vh;
+}
+
+#retangulos{
+    position: absolute;
+    left: 20%;
+    height: 70%;
+    width: 60%;
+    display: block;
+}
+
+#retangulo1{
+    border: solid 1px #212529;
+    width: 100%;
+    height: 45%;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+#retangulo1:hover{
+    background-color: #1E1E1E;
+}
+
+#div-img1{
+    display: inline-block;
+    position: absolute;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+}
+
+#div-retangulo1{
+    display: inline-block;
+    position: relative;
+}
+
+#architecturedesign-retangulo1{
+    color: white;
+    padding-top: 15%;
+    margin-left: 65%;
+    width: 400px;
+    font-size: 13px;
+}
+
+#curating1{
+    color: white;
+    padding-top: 5%;
+    margin-left: 65%;
+    width: 470px;
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+#retangulo1:hover #curating1{
+    color:#e7af59;
+}
+
+#retangulo2:hover #curating1{
+    color:#e7af59;
+}
+
+#feb121{
+    color: white;
+    padding-top: 5%;
+    margin-left: 65%;
+    width: 400px;
+}
+
+#botao-div-section6-1{
+    background: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    position: absolute;
+    right: 7%;
+    top: 17.7%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: 0.4s;
+    border: solid 0px;
+}
+
+#retangulo1:hover #botao-div-section6-1{
+    background-color: #D6A04C;
+}
+
+#retanguloinvisivel{
+    height: 10%; 
+}
+
+#retangulo2{
+    border: solid 1px #212529;
+    width: 100%;
+    height: 45%;
+    position: relative;
+    display: inline-block;  
+    transition: 0.4s;
+}
+
+#retangulo2:hover{
+    background-color: #1E1E1E;
+}
+
+#div-retangulo2{
+    display: inline-block;
+}
+
+#div-img2{
+    display: inline-block;
+    position: absolute;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+}
+
+#botao-div-section6-2{
+    background: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    position: absolute;
+    right: 7%;
+    top: 40%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: 0.4s;
+    border: solid 0px;  
+}
+
+#retangulo2:hover #botao-div-section6-2{
+    background-color: #D6A04C;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.rodape{
+    background-color: #1c1c1c;
+    height: 55vh;
+}
+
+#footer-container {
+    padding-top: 5%;
+    width: 95%;
+}
+
+#footer-logo{
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    padding-left: 15%;
+}
+
+#links1{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 27%;
+    position: relative;
+}
+
+#links2{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 4%;
+    position: relative;
+}
+
+#links3{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 22%;
+    width: 40%;
+    position: relative;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+}
+
+.item {
+    font-size: 16px;
+    color: #ccc;
+    padding-top: 25px;
+}
+
+#newsletter-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+#newsletter-form {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#newsletter-input {
+    padding: 8px;
+    width: 75%;
+    height: 55px;
+    border: none;
+    border-radius: 3px;
+}
+
+#newsletter-button {
+    padding: 9px;
+    background-color: #d4a154;
+    border: 0px;
+    color: white;
+    height: 55px;
+    width: 60px;
+}
+
+#footer-icons span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-bottom: 150px;
+}
+
+#textofinal {
+    border-top: 1px solid #333;
+    position: absolute;
+    left: 16%;
+    padding-top: 1% ;
+    text-align: center;
+    font-size: 15px;
+    color: #aaa;
+    width: 70%;
+}
+
+/* --------------------------------------------------------------------------------*/
+
+.aside-menu {
+    position: fixed;
+    height: 100%;
+    width: 350px;
+    right: -350px;
+    top: 0% ;
+    background: #111111;
+    color: white;
+    transition: 0.2s;
+}
+
+input:checked ~ .aside-menu {
+    right: 0;
+    z-index: 100;
+  }
+
+input:checked ~ #toggler {
+    right: 20%;
+}
+
+#toggler{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0%;
+    z-index: 10000;
+}
+
+#x-menu{
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    z-index: -100;
+}
+
+
+#ulmenu{
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    text-align: center;
+    line-height: 60px;
+}
+
+#imgmenu{
+    position: absolute;
+    bottom: 2%;
+    left: 23%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
